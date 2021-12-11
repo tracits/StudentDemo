@@ -1,0 +1,47 @@
+---
+title: "Demo"
+author: "Johanna Berg"
+date: "12/11/2021"
+output: word_document
+bibliography: references.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+## Including references
+
+You can easily handle your references in Rstudio. Citations can be found using direct search in Rstudio, or from Zotero. These are added to a .bib file that is included in your project. Example of a reference: [@Stelfox2012a]
+
+## Using styles
+
+Adding a csl file to your header will modify the formatting output of your document.
+
+## Useful packages
+
+There's a lot of packages that can be used in R, helping you with everything from datahandling, statistics and modeling to formatting output. Some of the most commonly used include [tidyverse](https://www.tidyverse.org) and [bookdown](https://bookdown.org).
+
+## Commenting
+
+Readers can easily comment on your text by including them in this format: <!-- Here's a comment -->. They will not be visible in the knitted version of the document.
