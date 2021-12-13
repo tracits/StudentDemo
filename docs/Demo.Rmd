@@ -32,7 +32,7 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 
 ## Including references
 
-You can easily handle your references in Rstudio. Citations can be found using direct search in Rstudio, or from Zotero. These are added to a .bib file that is included in your project. Example of a reference: [@Stelfox2012a]
+You can easily handle your references in Rstudio. Citations can be found using direct search in Rstudio, or from Zotero. These are added to a .bib file that is included in your project. Example of a reference: [@Stelfox2012a][@Lancet2020]
 
 ## Using styles
 
