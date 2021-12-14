@@ -17,10 +17,10 @@ GitHub introduction:
 
 Rstudio introduction: 
 
-## Local setup
-
-Install Rstudio. Create a free GitHub account and set up a repository. Copy the repository linke and create a new project in Rstudio based on this repository.
-
 ## Example of meeting notes
 
 Markdown examples of meeting-notes be found in the meetings folder.
+  
+## Rmarkdown example
+
+  Can be found in the `docs` folder.
